@@ -19,7 +19,7 @@ converter.OutputPixelFormat = pylon.PixelType_BGR8packed
 converter.OutputBitAlignment = pylon.OutputBitAlignment_MsbAligned
 
 try:
-    if sys.argv[1] = 's':
+    if sys.argv[1] == 's':
         showWindow = True
     else:
         showWindow = False
