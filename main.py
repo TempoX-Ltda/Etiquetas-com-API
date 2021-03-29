@@ -1,7 +1,5 @@
-'''
-A simple Program for grabing video from basler camera and converting it to opencv img.
-Tested on Basler acA1300-200uc (USB3, linux 64bit , python 3.5)
-'''
+# sudo apt-get install libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev libqtgui4 libqt4-test
+
 from pypylon import pylon
 import cv2
 import time
